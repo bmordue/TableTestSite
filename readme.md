@@ -14,4 +14,4 @@ Then:
 
 # Run against hosted site
 
-`cd test && npx cypress open --config baseUrl=https://bmordue.github.io/TableTestSite`
+Set the baseUrl in cypress.config.js to https://bmordue.github.io/TableTestSite

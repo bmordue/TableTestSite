@@ -1,6 +1,6 @@
 describe("test site", () => {
   it("check the details page for each row", () => {
-    cy.visit("http://localhost:12345");
+    cy.visit("/");
     cy.get("table").should("exist");
 
     cy.get(`tbody > tr`).each(($row) => {
